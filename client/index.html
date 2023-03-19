@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <style>
+      #chat {
+        width: 400px;
+        height: 500px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      #messages {
+        height: 400px;
+        overflow-y: scroll;
+      }
+      #message-input {
+        width: 80%;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+      }
+      #send-button {
+        width: 20%;
+        padding: 5px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chat">
+      <div id="messages"></div>
+      <input type="text" id="message-input">
+      <button id="send-button">Send</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
